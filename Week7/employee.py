@@ -11,11 +11,3 @@ class Employee:
 
         return 'Staff name: ' + self.staff_name + '\nStaff ID: ' + str(self.staff_id)
 
-def main():
-
-    matthew = Employee('Matthew Swart', 1001)
-    print matthew
-
-if __name__ == '__main__':
-
-    main()
